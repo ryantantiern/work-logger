@@ -2,6 +2,7 @@ from os import listdir
 from datetime import datetime as dt
 
 def log():
+	# TODO: Add functionality to keep track of ALL logged files in a central place
 	prompt = '>'
 	filename = '_log_notes'
 	date_time_now = dt.now()
